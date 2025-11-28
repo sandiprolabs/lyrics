@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Song, Artist, Genre, Category } from '@prisma/client'
+import { Song, Artist, Genre, Category } from '../prisma/db/client'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'

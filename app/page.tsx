@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
-import { Song, Artist, Genre, Category } from '@prisma/client'
+import { Song, Artist, Genre, Category } from '../prisma/db/client'
 import SongCard from '@/components/SongCard'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
